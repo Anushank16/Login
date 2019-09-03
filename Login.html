@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <title>Login</title>
+
+  <style>
+  html,body{
+    padding:0px;
+    margin:0px;
+    height:100%;
+    width:100%;
+  }
+  *{
+    box-sizing:border-box;
+  }
+  .header{
+    height:150px;
+    background-color:#007bff;;
+    font-size:35px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+  }
+  .container{
+    margin-top:50px;
+    border:2px solid black;
+    height:300px;
+    width:400px;
+  }
+  .spacing{
+    margin-top:25px;
+  }
+  .centerButton{
+    display:flex;
+    justify-content:center;
+  }
+  </style>
+</head>
+<body>
+    <div class="header">
+        LOGIN PAGE
+    </div>
+    <div class="container">
+        <form class="form" action="" method="get">
+          <div class="spacing">Email</div>
+            <input type="email" name="email" class="form-control" autocomplete="off">
+          <div class="spacing">Password</div>
+            <input type="password" name="password" class="form-control">
+          <div class="centerButton">
+            <button type="submit" class="btn btn-primary spacing">Login</button>
+          </div>
+        </form>
+    </div>
+</body>
+</html>
